@@ -1,0 +1,96 @@
+.container {
+    height: 100vh;
+    background-color: rgb(232, 232, 241);
+    margin: 0 auto;
+    width: 600px;
+    height: fit-content;
+    position: relative;
+    border: 2px solid black;
+}
+
+.header{
+    height: 100px;
+    background-color: rgb(80, 56, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+nav{
+    height: 30px;
+    background-color: rgb(173, 173, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.txt{
+    color: black;
+}
+
+.msg{
+    background-color: rgb(124, 73, 190);
+    display: flex;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+    border-bottom: 2px solid black ;
+}
+
+.content{
+    display: flex;
+}
+
+.left{
+    width: 450px;
+    height: 450px;
+    border-right: 2px solid black;
+}
+
+.left-head{
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.left-body{
+    height: 400px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.right-head{
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    display: flex;
+    width: 150px;
+    justify-content: center;
+}
+
+.right-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    height: 40px;
+    background-color: rgb(80, 56, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border-top: 2px solid black;
+}
