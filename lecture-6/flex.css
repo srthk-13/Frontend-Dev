@@ -1,0 +1,22 @@
+.p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.b1{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+}
+
+.b1:hover{
+    background-color: blue;
+    transition-duration: 5s;
+    rotate: calc(360deg*5);
+    transform: scale(4);
+    translate:-200px 100px;
+    border-radius: 50%;
+}
